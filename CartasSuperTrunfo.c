@@ -25,6 +25,10 @@ int main() {
     int populacao1, populacao2;
     float area1, area2;
     float pib1, pib2;
+    float densidade1 = populacao1/area1;
+    float densidade2 = populacao2/area2;
+    float pibcapta1 = pib1/populacao1;
+    float pibcapta2 = pib2/populacao2;
     int pontos1, pontos2;
 
         printf("jogo de supertrunfo - cadastro de cartas\n");
@@ -52,6 +56,8 @@ int main() {
         printf("area: %f\n", area1);
         printf("pib:%f\n", pib1);
         printf("pontos turisticos: %d\n", pontos1);
+        printf("densidade: %f\n", densidade1);
+        printf("pib por capta: %f\n", pibcapta1);
 
 
         //cadastro da segunda carta
@@ -76,6 +82,8 @@ int main() {
         printf("area: %f\n", area2);
         printf("pib:%f\n", pib2);
         printf("pontos turisticos: %d\n", pontos2);
+        printf("densidade: %f\n", densidade2);
+        printf("pib por capta: %f\n", pibcapta2);
 
 
 
